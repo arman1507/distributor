@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include distributor *.css
+recursive-include distributor *.csv
+recursive-include distributor *.html
+recursive-include distributor *.ico
+recursive-include distributor *.js
+recursive-include distributor *.json
+recursive-include distributor *.md
+recursive-include distributor *.png
+recursive-include distributor *.py
+recursive-include distributor *.svg
+recursive-include distributor *.txt
+recursive-exclude distributor *.pyc
