@@ -8,6 +8,7 @@
  "field_order": [
   "naming_series",
   "customer",
+  "nama",
   "company",
   "cb_0",
   "order_type",
@@ -63,11 +64,18 @@
    "hidden": 1,
    "label": "Company",
    "options": "Company"
+  },
+  {
+   "fieldname": "nama",
+   "fieldtype": "Read Only",
+   "hidden": 1,
+   "in_standard_filter": 1,
+   "label": "Nama"
   }
  ],
  "is_submittable": 1,
  "links": [],
- "modified": "2020-04-19 16:39:22.762473",
+ "modified": "2020-04-21 17:18:39.213125",
  "modified_by": "Administrator",
  "module": "Distributor",
  "name": "Purchase Order DIstributor",

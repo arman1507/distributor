@@ -4,6 +4,9 @@
 frappe.ui.form.on('Purchase Order DIstributor', {
 	refresh: function(frm) {
 		cur_frm.get_field("items").grid.toggle_reqd("delivery_date", true);
+	},
+	validate: function(frm){
+		cur_frm.set_value('nama',frappe.session.user_fullname)
 	}
 });
 frappe.ui.form.on('Sales Order Item', {
